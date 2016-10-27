@@ -1,0 +1,30 @@
+body {
+  // background-image: url("/assets/brickwall_@2X.png");
+  // background-repeat: repeat-y repeat-x;
+}
+
+#header{
+  text-align: center;
+  font-family: sans-serif;
+  margin: 3.5% auto;
+  h1{
+    font-family: helvetica;
+    font-weight: 300;
+    .dot{
+      color: #f8931f;
+    }
+  }
+}
+
+.canvas-container {
+  display: block;
+  margin: inherit;
+}
+
+.user-input {
+  margin-left: 3%;
+  display: inline;
+}
+#nameField {
+  border-color: #200;
+}
